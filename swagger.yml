@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+    description: Swagger file for Verv
+    version: "1.0"
+    title: Verv Product App
+consumes:
+    - "application/json"
+produces:
+    - "application/json"
+
+basePath: "/"
+
+paths:
+    /getproducts
+    get:
+    operationId: "app.ProductView"
